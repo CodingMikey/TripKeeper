@@ -1,0 +1,155 @@
+﻿@model IEnumerable<TripKeeper.Models.EndRouteCheck>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Index</h1>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.UserId)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Name)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Tractor)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Epj)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Date)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Trailer)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.RouteNumber)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.LoadQualitySurvey)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.TurnInBols)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.TurnInAllPaperwork)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.PalletJack)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.ReturnMisPicks)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.ClearTrailer)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.SweepTrailer)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.ReportTrailer)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.RetunDvir)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.ReportEquipmentDamages)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.StrapsHanding)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.TrailerShuttle)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.TrailerLocation)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DriverSignature)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.UserId)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Name)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Tractor)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Epj)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Date)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Trailer)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.RouteNumber)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.LoadQualitySurvey)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.TurnInBols)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.TurnInAllPaperwork)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.PalletJack)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.ReturnMisPicks)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.ClearTrailer)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.SweepTrailer)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.ReportTrailer)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.RetunDvir)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.ReportEquipmentDamages)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.StrapsHanding)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.TrailerShuttle)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.TrailerLocation)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.DriverSignature)
+            </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.Id">Edit</a> |
+                <a asp-action="Details" asp-route-id="@item.Id">Details</a> |
+                <a asp-action="Delete" asp-route-id="@item.Id">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

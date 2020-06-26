@@ -1,0 +1,144 @@
+﻿@model TripKeeper.Models.EndRouteCheck
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<h1>Details</h1>
+
+<div>
+    <h4>EndRouteCheck</h4>
+    <hr />
+    <dl class="row">
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.UserId)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.UserId)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Name)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Name)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Tractor)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Tractor)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Epj)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Epj)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Date)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Date)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Trailer)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Trailer)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.RouteNumber)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.RouteNumber)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.LoadQualitySurvey)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.LoadQualitySurvey)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.TurnInBols)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.TurnInBols)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.TurnInAllPaperwork)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.TurnInAllPaperwork)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.PalletJack)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.PalletJack)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.ReturnMisPicks)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.ReturnMisPicks)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.ClearTrailer)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.ClearTrailer)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.SweepTrailer)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.SweepTrailer)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.ReportTrailer)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.ReportTrailer)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.RetunDvir)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.RetunDvir)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.ReportEquipmentDamages)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.ReportEquipmentDamages)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.StrapsHanding)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.StrapsHanding)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.TrailerShuttle)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.TrailerShuttle)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.TrailerLocation)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.TrailerLocation)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.DriverSignature)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.DriverSignature)
+        </dd>
+    </dl>
+</div>
+<div>
+    <a asp-action="Edit" asp-route-id="@Model.Id">Edit</a> |
+    <a asp-action="Index">Back to List</a>
+</div>

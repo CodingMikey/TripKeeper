@@ -1,0 +1,177 @@
+﻿@model TripKeeper.Models.Trip
+
+@{
+    ViewData["Title"] = "Delete";
+}
+
+<h1>Delete</h1>
+
+<h3>Are you sure you want to delete this?</h3>
+<div>
+    <h4>Trip</h4>
+    <hr />
+    <dl class="row">
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.IsTeamRoute)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.IsTeamRoute)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Name)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Name)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.UserId)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.UserId)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.RouteNumber)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.RouteNumber)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Tractor)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Tractor)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Trailer)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Trailer)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.StartTime)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.StartTime)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.EndTime)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.EndTime)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.StartMiles)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.StartMiles)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.EndingMiles)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.EndingMiles)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Inspections)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Inspections)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.BHPU)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.BHPU)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.XDock)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.XDock)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.HourlyYard)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.HourlyYard)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Chains)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Chains)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Delay)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Delay)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Sleeper)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Sleeper)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Meals)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Meals)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Pallets)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Pallets)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.RoadStops)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.RoadStops)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.SuperStops)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.SuperStops)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Shuttle)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Shuttle)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Temp)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Temp)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.MiscExpense)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.MiscExpense)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Comments)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Comments)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Signature)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Signature)
+        </dd>
+    </dl>
+    
+    <form asp-action="Delete">
+        <input type="hidden" asp-for="Id" />
+        <input type="submit" value="Delete" class="btn btn-danger" /> |
+        <a asp-action="Index">Back to List</a>
+    </form>
+</div>

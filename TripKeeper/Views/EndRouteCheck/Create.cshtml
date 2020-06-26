@@ -1,0 +1,133 @@
+﻿@model TripKeeper.Models.EndRouteCheck
+
+@{
+    ViewData["Title"] = "Create";
+}
+
+<h1>Create</h1>
+
+<h4>EndRouteCheck</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Create">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="UserId" class="control-label"></label>
+                <input asp-for="UserId" class="form-control" />
+                <span asp-validation-for="UserId" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Name" class="control-label"></label>
+                <input asp-for="Name" class="form-control" />
+                <span asp-validation-for="Name" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Tractor" class="control-label"></label>
+                <input asp-for="Tractor" class="form-control" />
+                <span asp-validation-for="Tractor" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Epj" class="control-label"></label>
+                <input asp-for="Epj" class="form-control" />
+                <span asp-validation-for="Epj" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Date" class="control-label"></label>
+                <input asp-for="Date" class="form-control" />
+                <span asp-validation-for="Date" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Trailer" class="control-label"></label>
+                <input asp-for="Trailer" class="form-control" />
+                <span asp-validation-for="Trailer" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="RouteNumber" class="control-label"></label>
+                <input asp-for="RouteNumber" class="form-control" />
+                <span asp-validation-for="RouteNumber" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="LoadQualitySurvey" class="control-label"></label>
+                <input asp-for="LoadQualitySurvey" class="form-control" />
+                <span asp-validation-for="LoadQualitySurvey" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="TurnInBols" class="control-label"></label>
+                <input asp-for="TurnInBols" class="form-control" />
+                <span asp-validation-for="TurnInBols" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="TurnInAllPaperwork" class="control-label"></label>
+                <input asp-for="TurnInAllPaperwork" class="form-control" />
+                <span asp-validation-for="TurnInAllPaperwork" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="PalletJack" class="control-label"></label>
+                <input asp-for="PalletJack" class="form-control" />
+                <span asp-validation-for="PalletJack" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="ReturnMisPicks" class="control-label"></label>
+                <input asp-for="ReturnMisPicks" class="form-control" />
+                <span asp-validation-for="ReturnMisPicks" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="ClearTrailer" class="control-label"></label>
+                <input asp-for="ClearTrailer" class="form-control" />
+                <span asp-validation-for="ClearTrailer" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="SweepTrailer" class="control-label"></label>
+                <input asp-for="SweepTrailer" class="form-control" />
+                <span asp-validation-for="SweepTrailer" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="ReportTrailer" class="control-label"></label>
+                <input asp-for="ReportTrailer" class="form-control" />
+                <span asp-validation-for="ReportTrailer" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="RetunDvir" class="control-label"></label>
+                <input asp-for="RetunDvir" class="form-control" />
+                <span asp-validation-for="RetunDvir" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="ReportEquipmentDamages" class="control-label"></label>
+                <input asp-for="ReportEquipmentDamages" class="form-control" />
+                <span asp-validation-for="ReportEquipmentDamages" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="StrapsHanding" class="control-label"></label>
+                <input asp-for="StrapsHanding" class="form-control" />
+                <span asp-validation-for="StrapsHanding" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="TrailerShuttle" class="control-label"></label>
+                <input asp-for="TrailerShuttle" class="form-control" />
+                <span asp-validation-for="TrailerShuttle" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="TrailerLocation" class="control-label"></label>
+                <input asp-for="TrailerLocation" class="form-control" />
+                <span asp-validation-for="TrailerLocation" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DriverSignature" class="control-label"></label>
+                <input asp-for="DriverSignature" class="form-control" />
+                <span asp-validation-for="DriverSignature" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Create" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}
