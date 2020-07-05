@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ROfVBL9mEb5Ca0zulxHYG067PeTw1DNuk0jGPeHhUjuKt0YTJ3EBDpy30+VfO60AFoiMt0OCBsUP/EhbspOHUg==",
+  "dgSpecHash": "26sTvHT8idrvb3sw1W2BoPvFpw7JdbIgJGWMkXpY+TVK+M1InIkIMuqrOfhA2VPiacHPjjnmOnLwDidgQW4FVQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\mgala\\source\\repos\\TripKeeper\\TripKeeper\\TripKeeper.csproj",
+  "projectFilePath": "C:\\Users\\mgala\\Desktop\\TripKeeper\\TripKeeper\\TripKeeper.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\mgala\\.nuget\\packages\\microsoft.aspnetcore.cryptography.internal\\3.1.3\\microsoft.aspnetcore.cryptography.internal.3.1.3.nupkg.sha512",
     "C:\\Users\\mgala\\.nuget\\packages\\microsoft.aspnetcore.cryptography.keyderivation\\3.1.3\\microsoft.aspnetcore.cryptography.keyderivation.3.1.3.nupkg.sha512",

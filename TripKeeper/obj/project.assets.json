@@ -9020,11 +9020,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\mgala\\source\\repos\\TripKeeper\\TripKeeper\\TripKeeper.csproj",
+      "projectUniqueName": "C:\\Users\\mgala\\Desktop\\TripKeeper\\TripKeeper\\TripKeeper.csproj",
       "projectName": "TripKeeper",
-      "projectPath": "C:\\Users\\mgala\\source\\repos\\TripKeeper\\TripKeeper\\TripKeeper.csproj",
+      "projectPath": "C:\\Users\\mgala\\Desktop\\TripKeeper\\TripKeeper\\TripKeeper.csproj",
       "packagesPath": "C:\\Users\\mgala\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\mgala\\source\\repos\\TripKeeper\\TripKeeper\\obj\\",
+      "outputPath": "C:\\Users\\mgala\\Desktop\\TripKeeper\\TripKeeper\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\mgala\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -9102,7 +9102,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.301\\RuntimeIdentifierGraph.json"
       }
     }
   }
