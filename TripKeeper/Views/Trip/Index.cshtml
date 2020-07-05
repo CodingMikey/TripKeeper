@@ -11,59 +11,61 @@
 </p>
 <div class="display">
     <div class="row">
-        <table id="table_id" class="display responsive nowrap" width="100%">
-            <thead>
-                <tr>
-                    <th>@Html.DisplayNameFor(model => model.Id)</th>
-                    <th>@Html.DisplayNameFor(model => model.RouteNumber)</th>
-                    <th>@Html.DisplayNameFor(model => model.StartTime)</th>
-                    <th>@Html.DisplayNameFor(model => model.EndTime)</th>
-                    <th>@Html.DisplayNameFor(model => model.Tractor)</th>
-                    <th>@Html.DisplayNameFor(model => model.Trailer)</th>
-                    <th>@Html.DisplayNameFor(model => model.Miles)</th>
-                    <th>@Html.DisplayNameFor(model => model.RoadStops)</th>
-                    <th>@Html.DisplayNameFor(model => model.TotalPay)</th>
-                    <th></th>
-                </tr>
-            </thead>
-            @foreach (var item in Model)
-            {
-                <tr>
-                    <td>
-                        @Html.DisplayFor(modelItem => item.Id)
-                    </td>
-                    <td>
-                        @Html.DisplayFor(modelItem => item.RouteNumber)
-                    </td>
-                    <td>
-                        @Html.DisplayFor(modelItem => item.StartTime)
-                    </td>
-                    <td>
-                        @Html.DisplayFor(modelItem => item.EndTime)
-                    </td>
-                    <td>
-                        @Html.DisplayFor(modelItem => item.Tractor)
-                    </td>
-                    <td>
-                        @Html.DisplayFor(modelItem => item.Trailer)
-                    </td>
-                    <td>
-                        @Html.DisplayFor(modelItem => item.Miles)
-                    </td>
-                    <td>
-                        @Html.DisplayFor(modelItem => item.RoadStops)
-                    </td>
-                    <td>
-                        @Html.DisplayFor(modelItem => item.TotalPay)
-                    </td>
-                    <td>
-                        <a asp-action="Edit" asp-route-id="@item.Id">Edit</a> |
-                        <a asp-action="Details" asp-route-id="@item.Id">Details</a> |
-                        <a asp-action="Delete" asp-route-id="@item.Id">Delete</a>
-                    </td>
-                </tr>
-            }
-        </table>
+        <div class="table-responsive">
+            <table id="table_id" class="display responsive nowrap" width="100%">
+                <thead>
+                    <tr>
+                        <th>@Html.DisplayNameFor(model => model.Id)</th>
+                        <th>@Html.DisplayNameFor(model => model.RouteNumber)</th>
+                        <th>@Html.DisplayNameFor(model => model.StartTime)</th>
+                        <th>@Html.DisplayNameFor(model => model.EndTime)</th>
+                        <th>@Html.DisplayNameFor(model => model.Tractor)</th>
+                        <th>@Html.DisplayNameFor(model => model.Trailer)</th>
+                        <th>@Html.DisplayNameFor(model => model.Miles)</th>
+                        <th>@Html.DisplayNameFor(model => model.RoadStops)</th>
+                        <th>@Html.DisplayNameFor(model => model.TotalPay)</th>
+                        <th></th>
+                    </tr>
+                </thead>
+                @foreach (var item in Model)
+                {
+                    <tr>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.Id)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.RouteNumber)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.StartTime)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.EndTime)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.Tractor)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.Trailer)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.Miles)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.RoadStops)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.TotalPay)
+                        </td>
+                        <td>
+                            <a asp-action="Edit" asp-route-id="@item.Id">Edit</a> |
+                            <a asp-action="Details" asp-route-id="@item.Id">Details</a> |
+                            <a asp-action="Delete" asp-route-id="@item.Id">Delete</a>
+                        </td>
+                    </tr>
+                }
+            </table>
+        </div>
     </div>
 </div>
             

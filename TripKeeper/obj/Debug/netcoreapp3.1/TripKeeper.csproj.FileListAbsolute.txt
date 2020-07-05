@@ -924,3 +924,5 @@ C:\Users\mgala\Desktop\TripKeeper\TripKeeper\obj\Debug\netcoreapp3.1\staticwebas
 C:\Users\mgala\Desktop\TripKeeper\TripKeeper\obj\Debug\netcoreapp3.1\TripKeeper.dll
 C:\Users\mgala\Desktop\TripKeeper\TripKeeper\obj\Debug\netcoreapp3.1\TripKeeper.pdb
 C:\Users\mgala\Desktop\TripKeeper\TripKeeper\obj\Debug\netcoreapp3.1\TripKeeper.genruntimeconfig.cache
+C:\Users\mgala\Desktop\TripKeeper\TripKeeper\bin\Debug\netcoreapp3.1\Properties\serviceDependencies.json
+C:\Users\mgala\Desktop\TripKeeper\TripKeeper\bin\Debug\netcoreapp3.1\Properties\serviceDependencies.TripKeeper - Web Deploy.json
