@@ -2,6 +2,8 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
@@ -13,16 +15,28 @@ namespace TripKeeper.Controllers
     public class TripController : Controller
     {
         private readonly ApplicationDbContext _context;
+        private readonly UserManager<ApplicationUser> _userManager;
 
-        public TripController(ApplicationDbContext context)
+        public TripController(ApplicationDbContext context, UserManager<ApplicationUser> userManager)
         {
             _context = context;
+            _userManager = userManager;
         }
 
         // GET: Trip
+        [Authorize]
         public async Task<IActionResult> Index()
         {
-            return View(await _context.Trip.ToListAsync());
+            //Grabbing logged in users ID
+            string userId = _userManager.GetUserId(HttpContext.User);
+
+            //Assigning trips to individual user Ids
+            var trips = await _context.Trip.Where(t => t.UserId == userId).ToListAsync();
+
+            //Returning a view for the logged in users account
+            return View(trips);
+
+            //return View(await _context.Trip.ToListAsync());
         }
 
         // GET: Trip/Details/5
@@ -58,6 +72,18 @@ namespace TripKeeper.Controllers
         {
             if (ModelState.IsValid)
             {
+                //Grabbing logged in users id
+                string userId = _userManager.GetUserId(HttpContext.User);
+
+                //Adding logged in users trip information
+                ApplicationUser user = _context.Users.Where(a => a.Id == userId).FirstOrDefault();
+
+                //Assigning trip user ID to the logged in users ID so we can keep track of all trips created
+                trip.UserId = user.Id;
+
+                //Assigning the name of the logged in user to the trip full name field 
+                trip.Name = user.FullName;
+
                 _context.Add(trip);
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));
