@@ -35,8 +35,14 @@ namespace TripKeeper.Areas.Identity.Pages.Account.Manage
         public class InputModel
         {
             [Required]
-            [Display(Name = "Full Name")]
-            public string FullName { get; set; }
+            [DataType(DataType.Text)]
+            [Display(Name ="First Name")]
+            public string FirstName { get; set; }
+
+            [Required]
+            [DataType(DataType.Text)]
+            [Display(Name = "Last Name")]
+            public string LastName { get; set; }
 
             [Phone]
             [Display(Name = "Phone number")]
@@ -52,7 +58,8 @@ namespace TripKeeper.Areas.Identity.Pages.Account.Manage
 
             Input = new InputModel
             {
-                FullName = user.FullName,
+                FirstName = user.FirstName,
+                LastName = user.LastName,
                 PhoneNumber = phoneNumber
             };
         }
@@ -94,9 +101,9 @@ namespace TripKeeper.Areas.Identity.Pages.Account.Manage
                 }
             }
 
-            if (Input.FullName != user.FullName)
+            if (Input.LastName != user.LastName)
             {
-                user.FullName = Input.FullName;
+                user.LastName = Input.LastName;
             }
 
             await _userManager.UpdateAsync(user);

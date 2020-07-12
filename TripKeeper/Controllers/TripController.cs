@@ -82,7 +82,7 @@ namespace TripKeeper.Controllers
                 trip.UserId = user.Id;
 
                 //Assigning the name of the logged in user to the trip full name field 
-                trip.Name = user.FullName;
+                trip.Name = user.FirstName + " " + user.LastName;
 
                 _context.Add(trip);
                 await _context.SaveChangesAsync();

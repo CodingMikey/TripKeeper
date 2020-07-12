@@ -66,11 +66,12 @@ namespace TripKeeper
             app.UseAuthentication();
             app.UseAuthorization();
 
+            //Redirecting logged in users to Trip Index
             app.UseEndpoints(endpoints =>
             {
                 endpoints.MapControllerRoute(
                     name: "default",
-                    pattern: "{controller=Home}/{action=Index}/{id?}");
+                    pattern: "{controller=Trip}/{action=Index}/{id?}");
                 endpoints.MapRazorPages();
             });
         }
