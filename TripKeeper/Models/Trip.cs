@@ -17,15 +17,15 @@ namespace TripKeeper.Models
         public string Name { get; set; }
         public string UserId { get; set; }
 
-        public int RouteNumber { get; set; }
-        public int Tractor { get; set; }
+        public int RouteNumber { get; set; } = 0;
+        public int Tractor { get; set; } = 0;
         public string Trailer { get; set; }
         [Column(TypeName = "datetime2")]
         public DateTime? StartTime { get; set; }
         [Column(TypeName = "datetime2")]
         public DateTime? EndTime { get; set; }
-        public decimal? StartMiles { get; set; }
-        public decimal? EndingMiles { get; set; }
+        public decimal? StartMiles { get; set; } = 0;
+        public decimal? EndingMiles { get; set; } = 0;
         //Calculating total miles on a trip
         public decimal Miles
         {
@@ -42,23 +42,23 @@ namespace TripKeeper.Models
             }
         }
 
-        public int Inspections { get; set; }
-        public int BHPU { get; set; }
-        public int XDock { get; set; }
-        public decimal HourlyYard { get; set; }
-        public int Chains { get; set; }
+        public int Inspections { get; set; } = 0;
+        public int BHPU { get; set; } = 0;
+        public int XDock { get; set; } = 0;
+        public decimal HourlyYard { get; set; } = 0;
+        public int Chains { get; set; } = 0;
 
-        public decimal Delay { get; set; }
-        public int Sleeper { get; set; }
-        public int Meals { get; set; }
-        public int Pallets { get; set; }
+        public decimal Delay { get; set; } = 0;
+        public int Sleeper { get; set; } = 0;
+        public int Meals { get; set; } = 0;
+        public int Pallets { get; set; } = 0;
 
-        public int RoadStops { get; set; }
-        public int SuperStops { get; set; }
-        public int Shuttle { get; set; }
-        public string Temp { get; set; }
+        public int RoadStops { get; set; } = 0;
+        public int SuperStops { get; set; } = 0;
+        public int Shuttle { get; set; } = 0;
+        public string Temp { get; set; } 
 
-        public decimal MiscExpense { get; set; }
+        public decimal MiscExpense { get; set; } = 0;
 
         public string Comments { get; set; }
         public string Signature { get; set; }
