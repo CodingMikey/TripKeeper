@@ -4,11 +4,10 @@
     ViewData["Title"] = "Index";
 }
 
-<h1>Index</h1>
-
-<p>
-    <a asp-action="Create">Create New</a>
-</p>
+    <div class="text-center">
+        <a class="btn btn-success text-white" asp-controller="Trip" asp-action="Create">Create New Trip</a>
+    </div>
+    
 <p>
     @ViewBag.userid
 </p>
