@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
@@ -14,17 +15,26 @@ namespace TripKeeper.Controllers
     public class DotAuditController : Controller
     {
         private readonly ApplicationDbContext _context;
+        private readonly UserManager<ApplicationUser> _userManager;
 
-        public DotAuditController(ApplicationDbContext context)
+        public DotAuditController(ApplicationDbContext context, UserManager<ApplicationUser> userManager)
         {
             _context = context;
+            _userManager = userManager;
         }
 
         // GET: DotAudit
         [Authorize]
         public async Task<IActionResult> Index()
         {
-            return View(await _context.DotAudit.ToListAsync());
+            //Grabbing logged in users id
+            string userId = _userManager.GetUserId(HttpContext.User);
+
+            var dotAudits = await _context.DotAudit.Where(t => t.UserId == userId).ToListAsync();
+
+            return View(dotAudits);
+
+            //return View(await _context.DotAudit.ToListAsync());
         }
 
         // GET: DotAudit/Details/5
@@ -60,6 +70,16 @@ namespace TripKeeper.Controllers
         {
             if (ModelState.IsValid)
             {
+                //Grabbing logged in users id so when they post the data goes into their account
+                string userId = _userManager.GetUserId(HttpContext.User);
+
+                
+                ApplicationUser user = _context.Users.Where(a => a.Id == userId).FirstOrDefault();
+
+                dotAudit.UserId = user.Id;
+
+                dotAudit.Name = user.FirstName + " " + user.LastName;
+
                 _context.Add(dotAudit);
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));

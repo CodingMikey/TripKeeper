@@ -936,3 +936,4 @@ C:\Users\mgala\Desktop\TripKeeper\TripKeeper\obj\Debug\netcoreapp3.1\Razor\Areas
 C:\Users\mgala\Desktop\TripKeeper\TripKeeper\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\_ViewImports.cshtml.g.cs
 C:\Users\mgala\Desktop\TripKeeper\TripKeeper\obj\Debug\netcoreapp3.1\Razor\Views\Home\Index.cshtml.g.cs
 C:\Users\mgala\Desktop\TripKeeper\TripKeeper\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\_AuthLayout.cshtml.g.cs
+C:\Users\mgala\Desktop\TripKeeper\TripKeeper\bin\Debug\netcoreapp3.1\Properties\serviceDependencies.TripKeeper - Web Deploy.json

@@ -6,6 +6,16 @@ by editing this MSBuild file. In order to learn more about this please visit htt
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
     <TimeStampOfAssociatedLegacyPublishXmlFile />
-    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAqoh8dh3o+E2oXEbtZPPLtgAAAAACAAAAAAAQZgAAAAEAACAAAACRabEIXTLqLJ89nj2mohtRWZjVjF/ZE1Cl/oS1pxnyUAAAAAAOgAAAAAIAACAAAAAVdHoHprtSfDwnAGMqHNyfyC2BTaHpGpC9NSla2JUzOIAAAABweYIcTKPm4NJj3ukru1RSq4L7fCtRObNPbzWqM80ZYkxAgxw+cQN1P+8zV5X3kHsULZLSa8uiUTNjnYXhpGK6/Fle1ZKVZthRuo4cytxVSydF3fyI0nNgXkuPtbNpEO3M3xMEVP7PCS58VZTHU4yPcUi5mZQdzqyhtXrmt3efl0AAAABpumUBVusnRxSeZ6JjAjoJv+IcX19H9FLKefXK++a+6bJPIdYfQxaB0TTpZ9+OXddXOJGIF28EgnOq7BLhtyyF</EncryptedPassword>
+    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAqoh8dh3o+E2oXEbtZPPLtgAAAAACAAAAAAAQZgAAAAEAACAAAACGvDzTAvv+2Z5gM2eqNTxt1qrx0HNMzrbXQHxMI9YGlQAAAAAOgAAAAAIAACAAAABpNwk0p8PJsTGg0zj1EOeK8F4BUYrDup/0L/TBiFjCQoAAAACHq6emP9u1RYtIfXXPB0lLUqQn5qRBP6NUPf/nKN4jVo+wyCRWeHKj9jU0zPXZR+kvuNhrJRmpjjB4kwR3rwmG0q+rWPpigJ84ATEvbFhEr8qhBvLnBDJs6sH7WLmfRULHoFM/h2wDr1Lf1EV3vgZiVCBGrQFSWOHoGgO7Ps5TokAAAADPjr/QiTrQNSBWJigO+P2bdUkgm4rvZu2QsudT6tKNnVfpze66QZW8Kc3ZnWx+CRpJgbm6gaD6NARcqhRUBykH</EncryptedPassword>
   </PropertyGroup>
+  <ItemGroup>
+    <DestinationConnectionStrings Include="DefaultConnection">
+      <Value>Data Source=tcp:tripkeeperdbserver.database.windows.net,1433%3bInitial Catalog=TripKeeper_db%3bUser Id=TripKeeper%40tripkeeperdbserver%3bPassword=Emma2018%2a</Value>
+    </DestinationConnectionStrings>
+  </ItemGroup>
+  <ItemGroup>
+    <EFMigrations Include="TripKeeper.Data.ApplicationDbContext">
+      <Value>Data Source=tcp:tripkeeperdbserver.database.windows.net,1433%3bInitial Catalog=TripKeeper_db%3bUser Id=TripKeeper%40tripkeeperdbserver%3bPassword=Emma2018%2a</Value>
+    </EFMigrations>
+  </ItemGroup>
 </Project>
