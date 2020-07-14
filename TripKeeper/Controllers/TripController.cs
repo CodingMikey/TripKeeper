@@ -15,6 +15,7 @@ namespace TripKeeper.Controllers
     public class TripController : Controller
     {
         private readonly ApplicationDbContext _context;
+        //Using the UserManager to accesss logged in users information
         private readonly UserManager<ApplicationUser> _userManager;
 
         public TripController(ApplicationDbContext context, UserManager<ApplicationUser> userManager)
