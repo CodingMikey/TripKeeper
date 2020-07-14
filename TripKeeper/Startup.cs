@@ -15,6 +15,7 @@ using Microsoft.Extensions.Hosting;
 using TripKeeper.Models;
 using Microsoft.AspNetCore.Mvc;
 
+
 namespace TripKeeper
 {
     public class Startup
@@ -37,6 +38,8 @@ namespace TripKeeper
                 .AddDefaultUI();
             services.AddControllersWithViews();
             services.AddRazorPages();
+
+             
 
             //services.AddMvcCore().AddRazorPages(options=>
             //{
