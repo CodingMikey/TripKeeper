@@ -76,6 +76,8 @@ namespace TripKeeper.Controllers
                 
                 ApplicationUser user = _context.Users.Where(a => a.Id == userId).FirstOrDefault();
 
+                
+
                 dotAudit.UserId = user.Id;
 
                 dotAudit.Name = user.FirstName + " " + user.LastName;

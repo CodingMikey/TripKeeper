@@ -106,3 +106,10 @@ namespace TripKeeper.Models
         }
     }
 }
+
+//NOTES TO RESET DATABASE
+
+//    DBCC CHECKIDENT('[TestTable]', RESEED, 0);
+//GO
+
+//DELETE FROM employees
