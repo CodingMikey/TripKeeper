@@ -124,6 +124,18 @@ namespace TripKeeper.Controllers
             {
                 try
                 {
+                    //Grabbing logged in users id
+                    string userId = _userManager.GetUserId(HttpContext.User);
+
+                    //Adding logged in users trip information
+                    ApplicationUser user = _context.Users.Where(a => a.Id == userId).FirstOrDefault();
+
+                    //Assigning trip user ID to the logged in users ID so we can keep track of all trips created
+                    trip.UserId = user.Id;
+
+                    //Assigning the name of the logged in user to the trip full name field 
+                    trip.Name = user.FirstName + " " + user.LastName;
+
                     _context.Update(trip);
                     await _context.SaveChangesAsync();
                 }

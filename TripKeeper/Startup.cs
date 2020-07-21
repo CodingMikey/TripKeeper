@@ -38,6 +38,7 @@ namespace TripKeeper
                 .AddDefaultUI();
             services.AddControllersWithViews();
             services.AddRazorPages();
+            
 
              
 
