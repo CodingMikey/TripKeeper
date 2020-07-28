@@ -4,9 +4,9 @@
     ViewData["Title"] = "Create";
 }
 
-<h1>Create</h1>
+<h2 class="text-center">Create New Driver DOT Audit</h2>
 
-<h4>DotAudit</h4>
+
 <hr />
 <div class="row">
     <div class="col-md-4">
@@ -23,7 +23,7 @@
                 <span asp-validation-for="UserId" class="text-danger"></span>
             </div>*@
             <div class="form-group">
-                <label asp-for="Tractor" class="control-label"></label>
+                <label asp-for="Tractor" class="control-label">Tractor Number</label>
                 <input asp-for="Tractor" class="form-control" />
                 <span asp-validation-for="Tractor" class="text-danger"></span>
             </div>
@@ -57,6 +57,10 @@
                     <input class="form-check-input" asp-for="Tablet" /> @Html.DisplayNameFor(model => model.Tablet)
                 </label>
             </div>
+
+            <h4>Tractor Fitness</h4>
+            <br />
+
             <div class="form-group form-check">
                 <label class="form-check-label">
                     <input class="form-check-input" asp-for="DvirBook" /> @Html.DisplayNameFor(model => model.DvirBook)
