@@ -474,3 +474,4 @@ C:\Users\mgala\Desktop\TripKeeper\TripKeeper\obj\Release\netcoreapp3.1\Razor\Are
 C:\Users\mgala\Desktop\TripKeeper\TripKeeper\obj\Release\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\_ViewImports.cshtml.g.cs
 C:\Users\mgala\Desktop\TripKeeper\TripKeeper\obj\Release\netcoreapp3.1\Razor\Areas\Identity\Pages\_ValidationScriptsPartial.cshtml.g.cs
 C:\Users\mgala\Desktop\TripKeeper\TripKeeper\obj\Release\netcoreapp3.1\Razor\Areas\Identity\Pages\_ViewImports.cshtml.g.cs
+C:\Users\mgala\Desktop\TripKeeper\TripKeeper\bin\Release\netcoreapp3.1\Properties\ServiceDependencies\TripKeeper - Web Deploy\profile.arm.json
