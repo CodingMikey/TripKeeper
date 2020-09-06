@@ -34,6 +34,8 @@ namespace TripKeeper.Controllers
             //Assigning trips to individual user Ids
             var trips = await _context.Trip.Where(t => t.UserId == userId).ToListAsync();
 
+            
+
             //Returning a view for the logged in users account
             return View(trips);
 
@@ -81,6 +83,8 @@ namespace TripKeeper.Controllers
 
                 //Assigning trip user ID to the logged in users ID so we can keep track of all trips created
                 trip.UserId = user.Id;
+
+                
 
                 //Assigning the name of the logged in user to the trip full name field 
                 trip.Name = user.FirstName + " " + user.LastName;
