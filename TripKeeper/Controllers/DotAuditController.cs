@@ -77,7 +77,18 @@ namespace TripKeeper.Controllers
                 
                 ApplicationUser user = _context.Users.Where(a => a.Id == userId).FirstOrDefault();
 
-                
+                // get the user's most recent trip, sorted by the trip start date
+
+                var mostRecentTrip = _context.Trip.Where(t => t.UserId == userId).OrderByDescending(x => x.StartTime).FirstOrDefault();
+
+                if (mostRecentTrip == null)
+                {
+                    // user loaded page but doesn't have any trips in their history
+                    return View();
+                }
+
+                // set the tractor number here
+                dotAudit.Tractor = mostRecentTrip.Tractor;
 
                 dotAudit.UserId = user.Id;
 
