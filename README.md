@@ -62,4 +62,4 @@ $ add migrations
 
 ## Acknowledgments 🎁
 
-I was motivated to create this web application because I wanted to give drivers a better way to keep track of their trip information that also automatically how much a trip paid. Using this web application is 40% faster then filing out a trip form phyically. 
+I was motivated to create this web application because I wanted to give drivers a better way to keep track of their trip information that also automatically how much a trip paid. Using this web application is 40% faster then filing out a trip form physically.
