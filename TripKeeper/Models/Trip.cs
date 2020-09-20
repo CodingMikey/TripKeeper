@@ -75,14 +75,14 @@ namespace TripKeeper.Models
                     (XDock * 50) +
                     (HourlyYard * 22) +
                     (Chains * 15) +
-                    (Delay * 22) +
+                    (Delay * 24.75m) +
                     (Sleeper * 30) +
                     (Meals * 25) +
-                    (RoadStops * 18.50m) +
+                    (RoadStops * 19) +
                     (SuperStops * 32) +
                     (Shuttle * 25) +
                     (MiscExpense * 1) +
-                    (Inspections * 22) +
+                    (Inspections * 24.75m) +
                     (Pallets * 1);
                 }
                 else
@@ -95,11 +95,11 @@ namespace TripKeeper.Models
                     (Delay * 22) +
                     (Sleeper * 30) +
                     (Meals * 25) +
-                    (RoadStops * 9.25m) +
+                    (RoadStops * 8) +
                     (SuperStops * 32) +
                     (Shuttle * 25) +
                     (MiscExpense * 1) +
-                    (Inspections * 22) +
+                    (Inspections * 24.75m) +
                     (Pallets * 1);
                 }
             }
