@@ -10,12 +10,12 @@
 ## Features
 
 ⚡️ Modern UI Design\
-⚡️ One Page Layout\
-⚡️ Styled with Bootstrap v4.3 + Custom SCSS\
+⚡️ Easy to navigate\
+⚡️ Styled with Bootstrap\
 ⚡️ Fully Responsive\
 ⚡️ Valid HTML5 & CSS3\
-⚡️ Optimized with Webpack\
-⚡️ Well organized documentation
+⚡️ Table with full pagination, search and more\
+⚡️ Authorization W/ Custom ApplicationUser properties
 
 To view a demo example, **[click here](https://github.com/CodingMikey/TripKeeper/blob/master/sample.gif)**\
 
@@ -25,7 +25,7 @@ These instructions will get you a copy of the project up and running on your loc
 
 ### Prerequisites 📋
 
-You'll need [Git](https://git-scm.com) | [.NET Core 3.1](https://dotnet.microsoft.com/download) || [SSMS](https://docs.microsoft.com/en-us/sql/ssms/download-sql-server-management-studio-ssms?view=sql-server-ver15)
+You'll need [Git](https://git-scm.com) | [.NET Core 3.1](https://dotnet.microsoft.com/download) | [SSMS](https://docs.microsoft.com/en-us/sql/ssms/download-sql-server-management-studio-ssms?view=sql-server-ver15)
 
 ## How To Use 🔧
 
