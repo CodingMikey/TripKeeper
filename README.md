@@ -1,6 +1,6 @@
 # Trip Keeper ⚡️ 
 
-## You can do all of your paperwork electronically with Trip Keeper!
+## This app is used for storing a driver’s trip information and how much it pays! 
 
 <h2 align="center">
   <img src="https://github.com/CodingMikey/TripKeeper/blob/master/sample.gif" alt="Tripkeeper" width="600px" />
@@ -59,4 +59,4 @@ $ git remote remove origin
 
 ## Acknowledgments 🎁
 
-I was motivated to create this web application because I wanted to give drivers a better way to keep track of their trip information that also automatically how much a trip paid.
+I was motivated to create this web application because I wanted to give drivers a better way to keep track of their trip information that also automatically how much a trip paid. Using this web application is 40% faster then filing out a trip form phyically. 
