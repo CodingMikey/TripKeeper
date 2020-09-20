@@ -9,12 +9,12 @@
 
 ## Features
 
-⚡️ Modern easy to navigate UI Design 
-⚡️ Styled with Bootstrap v4.3 
+⚡️ Modern easy to navigate UI Design\ 
+⚡️ Styled with Bootstrap v4.3\ 
 ⚡️ Fully Responsive + Responsive Data table\
 ⚡️ Valid HTML5 & CSS3\
-⚡️ Authorization w/ Custom ApplicationUser properties
-⚡️ Well organized documentation
+⚡️ Authorization w/ Custom ApplicationUser properties\
+⚡️ Well organized documentation\
 
 To view a demo example, **[click here](https://github.com/CodingMikey/TripKeeper/blob/master/sample.gif)**\
 
