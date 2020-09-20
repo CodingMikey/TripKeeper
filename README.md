@@ -13,7 +13,7 @@
 ⚡️ ASP.NET Core 3.1 W/ MVC\
 ⚡️ Styled with Bootstrap\
 ⚡️ Fully Responsive\
-⚡️ Valid HTML5 & CSS3\
+⚡️ DateTime Picker\
 ⚡️ Table with full pagination, search and more\
 ⚡️ Authorization W/ Custom ApplicationUser properties
 
