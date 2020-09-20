@@ -96,7 +96,7 @@ namespace TripKeeper.Controllers
 
                 _context.Add(dotAudit);
                 await _context.SaveChangesAsync();
-                return RedirectToAction(nameof(Index));
+                return Redirect("~/EndRouteCheck/Create");
             }
             return View(dotAudit);
         }
