@@ -17,7 +17,7 @@
 ⚡️ Table with full pagination, search and more\
 ⚡️ Authorization W/ Custom ApplicationUser properties
 
-To view a demo example, **[click here](https://github.com/CodingMikey/TripKeeper/blob/master/sample.gif)**\
+To view a demo example, **[click here](https://github.com/CodingMikey/TripKeeper/blob/master/sample.gif)**
 
 ## Getting Started 🚀
 
