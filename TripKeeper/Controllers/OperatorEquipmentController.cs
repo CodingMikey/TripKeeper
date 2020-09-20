@@ -72,13 +72,25 @@ namespace TripKeeper.Controllers
                 //Grabbing logged in users id
                 string userId = _userManager.GetUserId(HttpContext.User);
 
-                //Adding logged in users trip information
+                
                 ApplicationUser user = _context.Users.Where(a => a.Id == userId).FirstOrDefault();
 
-                //Assigning trip user ID to the logged in users ID so we can keep track of all trips created
+                //The most recent trip route number
+                var mostRecentRouteNumber = _context.Trip.Where(t => t.UserId == userId).OrderByDescending(x => x.StartTime).FirstOrDefault();
+
+                if (mostRecentRouteNumber == null)
+                {
+                    // user loaded page but doesn't have any trips in their history
+                    return View();
+                }
+
+                //Assigning the route number here from most recent trip
+                operatorEquipment.RouteNumber = mostRecentRouteNumber.RouteNumber;
+
+                //Assigning user ID to the logged in users ID
                 operatorEquipment.UserId = user.Id;
 
-                //Assigning the name of the logged in user to the trip full name field 
+                //Assigning the name of the logged in user 
                 operatorEquipment.Name = user.FirstName + " " + user.LastName;
 
                 _context.Add(operatorEquipment);

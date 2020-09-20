@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace TripKeeper.Models
 {
-    //Adding custom user data in this class by inheriting from IdentityUser
+    //Adding custom user properties in this class by inheriting from IdentityUser
     public class ApplicationUser : IdentityUser
     {
         [PersonalData]

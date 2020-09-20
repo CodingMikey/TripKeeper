@@ -77,6 +77,35 @@ namespace TripKeeper.Controllers
                 //Assigning trip user ID to the logged in users ID so we can keep track of all trips created
                 endRouteCheck.UserId = user.Id;
 
+                //This variable lets us access most recent Trip properties
+                var mostRecentTrip = _context.Trip.Where(t => t.UserId == userId).OrderByDescending(x => x.StartTime).FirstOrDefault();
+
+                if (mostRecentTrip == null)
+                {
+                    return View();
+                }
+
+                //This variable lets us access most recent OperatorEquipment properties
+                var mostRecentEpj = _context.OperatorEquipment.Where(e => e.UserId == userId).OrderByDescending(z => z.Date).FirstOrDefault();
+
+                if (mostRecentEpj == null)
+                {
+                    return View();
+                }
+
+                //Assigning tractor number that was used on the most recent trip
+                endRouteCheck.Tractor = mostRecentTrip.Tractor;
+
+                //Assigning trailer number that was used on most recent trip
+                endRouteCheck.Trailer = mostRecentTrip.Trailer;
+
+                //Assigning routenumber that was used on the most recent trip
+                endRouteCheck.RouteNumber = mostRecentTrip.RouteNumber;
+
+                //Assigning Electric Pallet Jack(EPJ) number 
+                endRouteCheck.Epj = mostRecentEpj.Epj;
+                
+
                 //Assigning the name of the logged in user to the trip full name field 
                 endRouteCheck.Name = user.FirstName + " " + user.LastName;
 
