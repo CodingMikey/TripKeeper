@@ -11,7 +11,7 @@
 
 ⚡️ Modern UI Design\
 ⚡️ ASP.NET Core 3.1 W/ MVC\
-⚡️ Styled with Bootstrap\
+⚡️ Automatically calculates how much a trip pays\
 ⚡️ Fully Responsive\
 ⚡️ DateTime Picker\
 ⚡️ Table with full pagination, search and more\
