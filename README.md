@@ -25,7 +25,8 @@ These instructions will get you a copy of the project up and running on your loc
 
 ### Prerequisites 📋
 
-You'll need [Git](https://git-scm.com) | [.NET Core 3.1](https://dotnet.microsoft.com/download) | [SSMS](https://docs.microsoft.com/en-us/sql/ssms/download-sql-server-management-studio-ssms?view=sql-server-ver15)
+You'll need [Git](https://git-scm.com) | [.NET Core 3.1](https://dotnet.microsoft.com/download) | [SSMS](https://docs.microsoft.com/en-us/sql/ssms/download-sql-server-management-studio-ssms?view=sql-server-ver15) | [MS SQL](https://docs.microsoft.com/en-us/ef/)
+
 
 ## How To Use 🔧
 
