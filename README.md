@@ -1,4 +1,4 @@
-                                                                           ## Trip Keeper ⚡️ 
+## Trip Keeper ⚡️ 
 
 ## This app is used for storing a driver’s trip information and how much it pays! 
 
