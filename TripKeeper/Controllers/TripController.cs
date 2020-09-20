@@ -152,7 +152,7 @@ namespace TripKeeper.Controllers
                         throw;
                     }
                 }
-                return RedirectToAction(nameof(Index));
+                return Redirect("~/OperatorEquipment/Create");
             }
             return View(trip);
         }

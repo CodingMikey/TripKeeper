@@ -95,7 +95,7 @@ namespace TripKeeper.Controllers
 
                 _context.Add(operatorEquipment);
                 await _context.SaveChangesAsync();
-                return RedirectToAction(nameof(Index));
+                return Redirect("~/DotAudit/Create");
             }
             return View(operatorEquipment);
         }
