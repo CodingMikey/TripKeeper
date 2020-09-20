@@ -45,11 +45,13 @@ $ git remote remove origin
 ## Technologies used 🛠️
 
 - [.NET Core 3.1](https://dotnet.microsoft.com/download) - .NET Core is a cross-platform version of .NET
-- [Bootstrap 4](https://getbootstrap.com/docs/4.3/getting-started/introduction/) - Front-end component library
-- [SQL Server Management Studio](https://docs.microsoft.com/en-us/) -  Used for managing any SQL infrastructure, from SQL Server to Azure SQL Database.
-- [DataTables](https://datatables.net/) - DataTables is a plug-in for the jQuery Javascript library
+- [Microsoft SQL Serer](https://docs.microsoft.com/en-us/ef/) - Relational Database Management System (RDBMS)
 - [Entity Framework Core](https://docs.microsoft.com/en-us/ef/) - Modern Object-Database Mapper
+- [SQL Server Management Studio](https://www.microsoft.com/en-us/sql-server) -  Used for managing any SQL infrastructure, from SQL Server to Azure SQL Database.
 - [Microsoft Azure](https://azure.microsoft.com/en-us/) - Cloud computing service
+- [DataTables](https://datatables.net/) - DataTables is a plug-in for the jQuery Javascript library
+- [Bootstrap 4](https://getbootstrap.com/docs/4.3/getting-started/introduction/) - Front-end component library
+
 
 ## Authors
 
