@@ -10,7 +10,7 @@
 ## Features
 
 ⚡️ Modern UI Design\
-⚡️ Easy to navigate\
+⚡️ ASP.NET Core 3.1 W/ MVC\
 ⚡️ Styled with Bootstrap\
 ⚡️ Fully Responsive\
 ⚡️ Valid HTML5 & CSS3\
@@ -45,7 +45,7 @@ $ git remote remove origin
 ## Technologies used 🛠️
 
 - [.NET Core 3.1](https://dotnet.microsoft.com/download) - .NET Core is a cross-platform version of .NET
-- [Microsoft SQL Serer](https://docs.microsoft.com/en-us/ef/) - Relational Database Management System (RDBMS)
+- [Microsoft SQL Server](https://docs.microsoft.com/en-us/ef/) - Relational Database Management System (RDBMS)
 - [Entity Framework Core](https://docs.microsoft.com/en-us/ef/) - Modern Object-Database Mapper
 - [SQL Server Management Studio](https://www.microsoft.com/en-us/sql-server) -  Used for managing any SQL infrastructure, from SQL Server to Azure SQL Database.
 - [Microsoft Azure](https://azure.microsoft.com/en-us/) - Cloud computing service
