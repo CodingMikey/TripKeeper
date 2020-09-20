@@ -89,7 +89,6 @@ namespace TripKeeper.Controllers
                 // Setting tractor number to the number that was used from that specific trip
                 dotAudit.Tractor = mostRecentTrip.Tractor;
 
-                
                 dotAudit.UserId = user.Id;
 
                 //Setting the name of the logged in user into the DotAudit form
