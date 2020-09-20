@@ -12,8 +12,7 @@
 ⚡️ Modern UI Design\
 ⚡️ ASP.NET Core 3.1 W/ MVC\
 ⚡️ Automatically calculates how much a trip pays\
-⚡️ Fully Responsive\
-⚡️ DateTime Picker\
+⚡️ Fully Responsive + DateTime Picker\
 ⚡️ Table with full pagination, search and more\
 ⚡️ Authorization W/ Custom ApplicationUser properties
 
