@@ -19,9 +19,9 @@ namespace TripKeeper.Data
             base.OnModelCreating(builder);
         }
 
-        public DbSet<TripKeeper.Models.Trip> Trip { get; set; }
-        public DbSet<TripKeeper.Models.DotAudit> DotAudit { get; set; }
-        public DbSet<TripKeeper.Models.EndRouteCheck> EndRouteCheck { get; set; }
-        public DbSet<TripKeeper.Models.OperatorEquipment> OperatorEquipment { get; set; }
+        public DbSet<Trip> Trip { get; set; }
+        public DbSet<DotAudit> DotAudit { get; set; }
+        public DbSet<EndRouteCheck> EndRouteCheck { get; set; }
+        public DbSet<OperatorEquipment> OperatorEquipment { get; set; }
     }
 }
