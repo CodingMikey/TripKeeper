@@ -2,15 +2,117 @@
     ViewData["Title"] = "Home Page";
 }
 
-    <div class="jumbotron jumbotron-fluid">
-        <div class="container">
-            <h1 class="display-4 text-center">Trip Keeper</h1>
-            <p class="lead text-center">Welcome to Trip Keeper! You can do all your paperwork electronically here.</p>
-            <div class="col text-center">
-                <a class="btn btn-primary text-white" asp-controller="Trip" asp-action="Index">Click here to get started</a>
-                
+<div class="jumbotron jumbotron-fluid">
+    <div class="container">
+        <h1 class="display-4 text-center">Trip Keeper</h1>
+        <p class="lead text-center">Welcome to Trip Keeper! You can do all your paperwork electronically here.</p>
+        <div class="col text-center">
+            <a class="btn btn-primary text-white" asp-controller="Trip" asp-action="Index">Click here to get started</a>
+        </div>
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-sm-6">
+        <div class="card">
+            <div class="card-header">
+                Daily Pay
+            </div>
+            <div class="card-body">
+                <canvas class="my-4 h-25" id="myChart"></canvas>
             </div>
         </div>
     </div>
+    <div class="col-sm-6">
+        <div class="card">
+            <div class="card-header">
+                Miles Driven
+            </div>
+            <div class="card-body">
+                <canvas class="my-4 h-25" id="myChart2"></canvas>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.5.0/chart.min.js" integrity="sha512-asxKqQghC1oBShyhiBwA+YgotaSYKxGP1rcSYTDrB0U6DxwlJjU59B67U8+5/++uFjcuVM8Hh5cokLjZlhm3Vg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script type="text/javascript">
 
+    const labels = Date.Today
+    var ctx = document.getElementById('myChart');
+    var myChart = new Chart(ctx, {
+        type: 'line',
+        data: {
+            labels: [
+                '@DateTime.Now.ToString("yyyy-MM-dd")',
+                '@DateTime.Now.AddDays(-1).ToString("yyyy-MM-dd")',
+                '@DateTime.Now.AddDays(-2).ToString("yyyy-MM-dd")',
+                '@DateTime.Now.AddDays(-3).ToString("yyyy-MM-dd")',
+                '@DateTime.Now.AddDays(-4).ToString("yyyy-MM-dd")',
+                '@DateTime.Now.AddDays(-5).ToString("yyyy-MM-dd")'],
+            datasets: [{
+                label: 'Paid $',
+                data: [490, 1455, 365, 794, 289, 310],
+                backgroundColor: [
+                    'rgba(255, 99, 132, 0.9)',
+                    'rgba(54, 162, 235, 0.9)',
+                    'rgba(255, 206, 86, 0.9)',
+                    'rgba(75, 192, 192, 0.9)',
+                    'rgba(153, 102, 255, 0.9)',
+                    'rgba(255, 159, 64, 0.9)'
+                ],
+                borderColor: [
+                    'rgba(255, 99, 132, 1)',
+                    'rgba(54, 162, 235, 1)',
+                    'rgba(255, 206, 86, 1)',
+                    'rgba(75, 192, 192, 1)',
+                    'rgba(153, 102, 255, 1)',
+                    'rgba(255, 159, 64, 1)'
+                ],
+                borderWidth: 1
+            }]
+        },
+        options: {
+            scales: {
+                y: {
+                    beginAtZero: true
+                }
+            }
+        }
+    });
+    var ctx = document.getElementById('myChart2');
+    var myChart2 = new Chart(ctx, {
+        type: 'bar',
+        data: {
+            labels: ['Red', 'Blue', 'Yellow', 'Green', 'Purple', 'Orange'],
+            datasets: [{
+                label: 'Miles',
+                data: [490, 360, 365, 794, 289, 310],
+                backgroundColor: [
+                    'rgba(255, 99, 132, 0.9)',
+                    'rgba(54, 162, 235, 0.9)',
+                    'rgba(255, 206, 86, 0.9)',
+                    'rgba(75, 192, 192, 0.9)',
+                    'rgba(153, 102, 255, 0.9)',
+                    'rgba(255, 159, 64, 0.9)'
+                ],
+                borderColor: [
+                    'rgba(255, 99, 132, 1)',
+                    'rgba(54, 162, 235, 1)',
+                    'rgba(255, 206, 86, 1)',
+                    'rgba(75, 192, 192, 1)',
+                    'rgba(153, 102, 255, 1)',
+                    'rgba(255, 159, 64, 1)'
+                ],
+                borderWidth: 1
+            }]
+        },
+        options: {
+            scales: {
+                y: {
+                    beginAtZero: true
+                }
+            }
+        }
+    });
 
+</script>
