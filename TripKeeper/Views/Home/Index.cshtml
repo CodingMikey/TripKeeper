@@ -43,12 +43,12 @@
         type: 'line',
         data: {
             labels: [
-                '@DateTime.Now.ToString("yyyy-MM-dd")',
-                '@DateTime.Now.AddDays(-1).ToString("yyyy-MM-dd")',
-                '@DateTime.Now.AddDays(-2).ToString("yyyy-MM-dd")',
-                '@DateTime.Now.AddDays(-3).ToString("yyyy-MM-dd")',
-                '@DateTime.Now.AddDays(-4).ToString("yyyy-MM-dd")',
-                '@DateTime.Now.AddDays(-5).ToString("yyyy-MM-dd")'],
+                '@DateTime.Now.ToString("MM-dd")',
+                '@DateTime.Now.AddDays(-1).ToString("MM-dd")',
+                '@DateTime.Now.AddDays(-2).ToString("MM-dd")',
+                '@DateTime.Now.AddDays(-3).ToString("MM-dd")',
+                '@DateTime.Now.AddDays(-4).ToString("MM-dd")',
+                '@DateTime.Now.AddDays(-5).ToString("MM-dd")'],
             datasets: [{
                 label: 'Paid $',
                 data: [490, 1455, 365, 794, 289, 310],
@@ -68,7 +68,8 @@
                     'rgba(153, 102, 255, 1)',
                     'rgba(255, 159, 64, 1)'
                 ],
-                borderWidth: 1
+                borderWidth: 1,
+                tension: 0.50
             }]
         },
         options: {
@@ -84,12 +85,12 @@
         type: 'bar',
         data: {
             labels: [
-                '@DateTime.Now.ToString("yyyy-MM-dd")',
-                '@DateTime.Now.AddDays(-1).ToString("yyyy-MM-dd")',
-                '@DateTime.Now.AddDays(-2).ToString("yyyy-MM-dd")',
-                '@DateTime.Now.AddDays(-3).ToString("yyyy-MM-dd")',
-                '@DateTime.Now.AddDays(-4).ToString("yyyy-MM-dd")',
-                '@DateTime.Now.AddDays(-5).ToString("yyyy-MM-dd")'],
+                '@DateTime.Now.ToString("MM-dd")',
+                '@DateTime.Now.AddDays(-1).ToString("MM-dd")',
+                '@DateTime.Now.AddDays(-2).ToString("MM-dd")',
+                '@DateTime.Now.AddDays(-3).ToString("MM-dd")',
+                '@DateTime.Now.AddDays(-4).ToString("MM-dd")',
+                '@DateTime.Now.AddDays(-5).ToString("MM-dd")'],
             datasets: [{
                 label: 'Miles',
                 data: [490, 360, 365, 794, 289, 310],
