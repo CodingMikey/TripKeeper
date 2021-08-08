@@ -83,7 +83,13 @@
     var myChart2 = new Chart(ctx, {
         type: 'bar',
         data: {
-            labels: ['Red', 'Blue', 'Yellow', 'Green', 'Purple', 'Orange'],
+            labels: [
+                '@DateTime.Now.ToString("yyyy-MM-dd")',
+                '@DateTime.Now.AddDays(-1).ToString("yyyy-MM-dd")',
+                '@DateTime.Now.AddDays(-2).ToString("yyyy-MM-dd")',
+                '@DateTime.Now.AddDays(-3).ToString("yyyy-MM-dd")',
+                '@DateTime.Now.AddDays(-4).ToString("yyyy-MM-dd")',
+                '@DateTime.Now.AddDays(-5).ToString("yyyy-MM-dd")'],
             datasets: [{
                 label: 'Miles',
                 data: [490, 360, 365, 794, 289, 310],

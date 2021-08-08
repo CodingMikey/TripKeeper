@@ -1,9 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <parameters>
   <parameter name="IIS Web Application Name" description="" value="TripKeeper" tags="IisApp">
-    <parameterEntry kind="ProviderPath" scope="IisApp" match="^C:\\Users\\mgala\\Desktop\\TripKeeper\\TripKeeper\\obj\\Release\\netcoreapp3\.1\\PubTmp\\Out\\$" />
+    <parameterEntry kind="ProviderPath" scope="IisApp" match="^C:\\Users\\mgala\\OneDrive\\Desktop\\TripKeeper\\TripKeeper\\obj\\Release\\netcoreapp3\.1\\PubTmp\\Out\\$" />
   </parameter>
   <parameter name="TripKeeper.Data.ApplicationDbContext" description="" value="Data Source=tcp:tripkeeperdbserver.database.windows.net,1433;Initial Catalog=TripKeeper_db;User Id=TripKeeper@tripkeeperdbserver;Password=Emma2018*" tags="dbfullsql">
-    <parameterEntry kind="ProviderPath" scope="dbfullsql" match="^C:\\Users\\mgala\\Desktop\\TripKeeper\\TripKeeper\\obj\\Release\\netcoreapp3\.1\\PubTmp\\EFSQLScripts\\TripKeeper\.Data\.ApplicationDbContext\.sql$" />
+    <parameterEntry kind="ProviderPath" scope="dbfullsql" match="^C:\\Users\\mgala\\OneDrive\\Desktop\\TripKeeper\\TripKeeper\\obj\\Release\\netcoreapp3\.1\\PubTmp\\EFSQLScripts\\TripKeeper\.Data\.ApplicationDbContext\.sql$" />
   </parameter>
 </parameters>
