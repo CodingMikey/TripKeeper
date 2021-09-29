@@ -1351,7 +1351,6 @@ C:\Users\mgala\OneDrive\Desktop\TripKeeper\TripKeeper\bin\Debug\netcoreapp3.1\ru
 C:\Users\mgala\OneDrive\Desktop\TripKeeper\TripKeeper\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.0\System.Runtime.Caching.dll
 C:\Users\mgala\OneDrive\Desktop\TripKeeper\TripKeeper\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Runtime.Caching.dll
 C:\Users\mgala\OneDrive\Desktop\TripKeeper\TripKeeper\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
-C:\Users\mgala\OneDrive\Desktop\TripKeeper\TripKeeper\obj\Debug\netcoreapp3.1\TripKeeper.csprojAssemblyReference.cache
 C:\Users\mgala\OneDrive\Desktop\TripKeeper\TripKeeper\obj\Debug\netcoreapp3.1\TripKeeper.AssemblyInfoInputs.cache
 C:\Users\mgala\OneDrive\Desktop\TripKeeper\TripKeeper\obj\Debug\netcoreapp3.1\TripKeeper.AssemblyInfo.cs
 C:\Users\mgala\OneDrive\Desktop\TripKeeper\TripKeeper\obj\Debug\netcoreapp3.1\TripKeeper.csproj.CoreCompileInputs.cache
@@ -1412,3 +1411,5 @@ C:\Users\mgala\OneDrive\Desktop\TripKeeper\TripKeeper\obj\Debug\netcoreapp3.1\Tr
 C:\Users\mgala\OneDrive\Desktop\TripKeeper\TripKeeper\obj\Debug\netcoreapp3.1\TripKeeper.dll
 C:\Users\mgala\OneDrive\Desktop\TripKeeper\TripKeeper\obj\Debug\netcoreapp3.1\TripKeeper.pdb
 C:\Users\mgala\OneDrive\Desktop\TripKeeper\TripKeeper\obj\Debug\netcoreapp3.1\TripKeeper.genruntimeconfig.cache
+C:\Users\mgala\OneDrive\Desktop\TripKeeper\TripKeeper\obj\Debug\netcoreapp3.1\TripKeeper.csproj.AssemblyReference.cache
+C:\Users\mgala\OneDrive\Desktop\TripKeeper\TripKeeper\bin\Debug\netcoreapp3.1\newrelic.config
