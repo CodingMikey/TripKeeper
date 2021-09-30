@@ -1412,4 +1412,3 @@ C:\Users\mgala\OneDrive\Desktop\TripKeeper\TripKeeper\obj\Debug\netcoreapp3.1\Tr
 C:\Users\mgala\OneDrive\Desktop\TripKeeper\TripKeeper\obj\Debug\netcoreapp3.1\TripKeeper.pdb
 C:\Users\mgala\OneDrive\Desktop\TripKeeper\TripKeeper\obj\Debug\netcoreapp3.1\TripKeeper.genruntimeconfig.cache
 C:\Users\mgala\OneDrive\Desktop\TripKeeper\TripKeeper\obj\Debug\netcoreapp3.1\TripKeeper.csproj.AssemblyReference.cache
-C:\Users\mgala\OneDrive\Desktop\TripKeeper\TripKeeper\bin\Debug\netcoreapp3.1\newrelic.config

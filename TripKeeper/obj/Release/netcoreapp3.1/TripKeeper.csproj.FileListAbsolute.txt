@@ -888,7 +888,6 @@ C:\Users\mgala\OneDrive\Desktop\TripKeeper\TripKeeper\bin\Release\netcoreapp3.1\
 C:\Users\mgala\OneDrive\Desktop\TripKeeper\TripKeeper\bin\Release\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.0\System.Runtime.Caching.dll
 C:\Users\mgala\OneDrive\Desktop\TripKeeper\TripKeeper\bin\Release\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Runtime.Caching.dll
 C:\Users\mgala\OneDrive\Desktop\TripKeeper\TripKeeper\bin\Release\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
-C:\Users\mgala\OneDrive\Desktop\TripKeeper\TripKeeper\obj\Release\netcoreapp3.1\TripKeeper.csprojAssemblyReference.cache
 C:\Users\mgala\OneDrive\Desktop\TripKeeper\TripKeeper\obj\Release\netcoreapp3.1\TripKeeper.AssemblyInfoInputs.cache
 C:\Users\mgala\OneDrive\Desktop\TripKeeper\TripKeeper\obj\Release\netcoreapp3.1\TripKeeper.AssemblyInfo.cs
 C:\Users\mgala\OneDrive\Desktop\TripKeeper\TripKeeper\obj\Release\netcoreapp3.1\TripKeeper.csproj.CoreCompileInputs.cache
@@ -949,3 +948,5 @@ C:\Users\mgala\OneDrive\Desktop\TripKeeper\TripKeeper\obj\Release\netcoreapp3.1\
 C:\Users\mgala\OneDrive\Desktop\TripKeeper\TripKeeper\obj\Release\netcoreapp3.1\TripKeeper.dll
 C:\Users\mgala\OneDrive\Desktop\TripKeeper\TripKeeper\obj\Release\netcoreapp3.1\TripKeeper.pdb
 C:\Users\mgala\OneDrive\Desktop\TripKeeper\TripKeeper\obj\Release\netcoreapp3.1\TripKeeper.genruntimeconfig.cache
+C:\Users\mgala\OneDrive\Desktop\TripKeeper\TripKeeper\bin\Release\netcoreapp3.1\newrelic.config
+C:\Users\mgala\OneDrive\Desktop\TripKeeper\TripKeeper\obj\Release\netcoreapp3.1\TripKeeper.csproj.AssemblyReference.cache
