@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "jMpX8PXVYJWEcLWAONtVWSuHxxoevaVGrChNuY6X8Abr5RmtlNyDyw24Q+MN4INWpw5eAHNQIA8RVjA3tWeY0w==",
+  "dgSpecHash": "st4L1dSI56y1FyJU54SzGbvqNicXKGbTXpzGMueKnz8h+KjWrnjW/t6E9D4iqImPcW8otJaJXK6n1C3I0O5ihg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\mgala\\OneDrive\\Desktop\\TripKeeper\\TripKeeper\\TripKeeper.csproj",
+  "projectFilePath": "C:\\Users\\mgala\\OneDrive\\Desktop\\Coding Stuff\\TripKeeper\\TripKeeper\\TripKeeper.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\mgala\\.nuget\\packages\\microsoft.aspnetcore.cryptography.internal\\3.1.3\\microsoft.aspnetcore.cryptography.internal.3.1.3.nupkg.sha512",
     "C:\\Users\\mgala\\.nuget\\packages\\microsoft.aspnetcore.cryptography.keyderivation\\3.1.3\\microsoft.aspnetcore.cryptography.keyderivation.3.1.3.nupkg.sha512",
@@ -66,6 +66,7 @@
     "C:\\Users\\mgala\\.nuget\\packages\\microsoft.win32.primitives\\4.3.0\\microsoft.win32.primitives.4.3.0.nupkg.sha512",
     "C:\\Users\\mgala\\.nuget\\packages\\microsoft.win32.registry\\4.5.0\\microsoft.win32.registry.4.5.0.nupkg.sha512",
     "C:\\Users\\mgala\\.nuget\\packages\\netstandard.library\\1.6.1\\netstandard.library.1.6.1.nupkg.sha512",
+    "C:\\Users\\mgala\\.nuget\\packages\\newrelic.agent\\9.0.0\\newrelic.agent.9.0.0.nupkg.sha512",
     "C:\\Users\\mgala\\.nuget\\packages\\newtonsoft.json\\12.0.2\\newtonsoft.json.12.0.2.nupkg.sha512",
     "C:\\Users\\mgala\\.nuget\\packages\\nuget.frameworks\\4.7.0\\nuget.frameworks.4.7.0.nupkg.sha512",
     "C:\\Users\\mgala\\.nuget\\packages\\runtime.debian.8-x64.runtime.native.system.security.cryptography.openssl\\4.3.0\\runtime.debian.8-x64.runtime.native.system.security.cryptography.openssl.4.3.0.nupkg.sha512",

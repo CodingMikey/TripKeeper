@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\mgala\\OneDrive\\Desktop\\TripKeeper\\TripKeeper\\TripKeeper.csproj": {}
+    "C:\\Users\\mgala\\OneDrive\\Desktop\\Coding Stuff\\TripKeeper\\TripKeeper\\TripKeeper.csproj": {}
   },
   "projects": {
-    "C:\\Users\\mgala\\OneDrive\\Desktop\\TripKeeper\\TripKeeper\\TripKeeper.csproj": {
+    "C:\\Users\\mgala\\OneDrive\\Desktop\\Coding Stuff\\TripKeeper\\TripKeeper\\TripKeeper.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\mgala\\OneDrive\\Desktop\\TripKeeper\\TripKeeper\\TripKeeper.csproj",
+        "projectUniqueName": "C:\\Users\\mgala\\OneDrive\\Desktop\\Coding Stuff\\TripKeeper\\TripKeeper\\TripKeeper.csproj",
         "projectName": "TripKeeper",
-        "projectPath": "C:\\Users\\mgala\\OneDrive\\Desktop\\TripKeeper\\TripKeeper\\TripKeeper.csproj",
+        "projectPath": "C:\\Users\\mgala\\OneDrive\\Desktop\\Coding Stuff\\TripKeeper\\TripKeeper\\TripKeeper.csproj",
         "packagesPath": "C:\\Users\\mgala\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\mgala\\OneDrive\\Desktop\\TripKeeper\\TripKeeper\\obj\\",
+        "outputPath": "C:\\Users\\mgala\\OneDrive\\Desktop\\Coding Stuff\\TripKeeper\\TripKeeper\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\mgala\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -71,6 +71,10 @@
             "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
               "target": "Package",
               "version": "[3.1.3, )"
+            },
+            "NewRelic.Agent": {
+              "target": "Package",
+              "version": "[9.0.0, )"
             }
           },
           "imports": [
@@ -91,7 +95,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.302\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.401\\RuntimeIdentifierGraph.json"
         }
       }
     }

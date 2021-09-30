@@ -1,5 +1,9 @@
 {
   "dependencies": {
+    "mssql2": {
+      "restored": true,
+      "restoreTime": "2021-09-30T05:00:41.7387256Z"
+    },
     "mssql1": {
       "restored": true,
       "restoreTime": "2020-07-05T00:54:41.9381414Z"
@@ -7,10 +11,22 @@
   },
   "parameters": {
     "resourceGroup": {
+      "Name": "resourceGroup",
+      "Type": "resourceGroup",
+      "Value": "cloud-shell-storage-westus"
+    },
+    "mssql1.subscriptionId": {
+      "Name": "mssql1.subscriptionId",
+      "Type": "subscription",
+      "Value": "fe1c9d4b-0fe8-4899-a815-b741b7496ad4"
+    },
+    "mssql1.resourceGroupName": {
+      "Name": "mssql1.resourceGroupName",
       "Type": "resourceGroup",
       "Value": "cloud-shell-storage-westus"
     },
     "subscriptionId": {
+      "Name": "subscriptionId",
       "Type": "subscription",
       "Value": "fe1c9d4b-0fe8-4899-a815-b741b7496ad4"
     }
