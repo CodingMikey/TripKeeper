@@ -1920,4 +1920,3 @@ C:\Users\mgala\OneDrive\Desktop\Coding Stuff\TripKeeper\TripKeeper\obj\Debug\net
 C:\Users\mgala\OneDrive\Desktop\Coding Stuff\TripKeeper\TripKeeper\obj\Debug\netcoreapp3.1\TripKeeper.dll
 C:\Users\mgala\OneDrive\Desktop\Coding Stuff\TripKeeper\TripKeeper\obj\Debug\netcoreapp3.1\TripKeeper.pdb
 C:\Users\mgala\OneDrive\Desktop\Coding Stuff\TripKeeper\TripKeeper\obj\Debug\netcoreapp3.1\TripKeeper.genruntimeconfig.cache
-C:\Users\mgala\OneDrive\Desktop\Coding Stuff\TripKeeper\TripKeeper\obj\Debug\netcoreapp3.1\TripKeeper.csproj.AssemblyReference.cache
