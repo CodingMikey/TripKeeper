@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Threading;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
@@ -34,9 +35,10 @@ namespace TripKeeper.Controllers
             //Assigning trips to individual user Ids
             var trips = await _context.Trip.Where(t => t.UserId == userId).ToListAsync();
 
-            
+
 
             //Returning a view for the logged in users account
+            Thread.Sleep(3000);
             return View(trips);
 
             //return View(await _context.Trip.ToListAsync());
