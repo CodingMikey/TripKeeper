@@ -38,7 +38,7 @@ namespace TripKeeper.Controllers
 
 
             //Returning a view for the logged in users account
-            Thread.Sleep(3000);
+            //Thread.Sleep(3000);
             return View(trips);
 
             //return View(await _context.Trip.ToListAsync());
