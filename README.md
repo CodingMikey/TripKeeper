@@ -1,4 +1,4 @@
-## ⚡️⚡ Trip Keeper | ASP.NET Core 3.1 MVC Fullstack Application ⚡️
+## ⚡️ Trip Keeper | ASP.NET Core 3.1 MVC Fullstack Application ⚡️
 
 ## This app is used for storing a driver’s trip information and how much it pays! 
 
