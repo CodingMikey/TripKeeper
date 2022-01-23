@@ -44,7 +44,7 @@ $ git remote remove origin
 # In the dictory of tripkeeper you must add migrations
 $ Add-Migrations [migration name]
 
-# In the dictory of tripkeeper you must update after migrations
+# In the directory of tripkeeper you must update after migrations
 $ Update-Database
 ```
 
