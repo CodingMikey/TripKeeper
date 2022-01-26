@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "pbk5ACfT4GE0Jp7dnm7oqNw7MoB4XLdEGxsiZ7/iqKm5Ti646W4Ey+Xt6hMLHG5b55BRk4rzWWmWFTQI9GT/LQ==",
+  "dgSpecHash": "lxHVdximZ3ox2mPo91kqEllh1kPSS1GRB11nTjGxhojsOUnuxev7I0Qc9vCMCHSOpnoIMvv3X/5FqDwPQICs2A==",
   "success": true,
   "projectFilePath": "C:\\Users\\USER\\Desktop\\Coding\\TripKeeper\\TripKeeper\\TripKeeper.csproj",
   "expectedPackageFiles": [
@@ -66,7 +66,6 @@
     "C:\\Users\\USER\\.nuget\\packages\\microsoft.win32.primitives\\4.3.0\\microsoft.win32.primitives.4.3.0.nupkg.sha512",
     "C:\\Users\\USER\\.nuget\\packages\\microsoft.win32.registry\\4.5.0\\microsoft.win32.registry.4.5.0.nupkg.sha512",
     "C:\\Users\\USER\\.nuget\\packages\\netstandard.library\\1.6.1\\netstandard.library.1.6.1.nupkg.sha512",
-    "C:\\Users\\USER\\.nuget\\packages\\newrelic.agent\\9.0.0\\newrelic.agent.9.0.0.nupkg.sha512",
     "C:\\Users\\USER\\.nuget\\packages\\newtonsoft.json\\12.0.2\\newtonsoft.json.12.0.2.nupkg.sha512",
     "C:\\Users\\USER\\.nuget\\packages\\nuget.frameworks\\4.7.0\\nuget.frameworks.4.7.0.nupkg.sha512",
     "C:\\Users\\USER\\.nuget\\packages\\runtime.debian.8-x64.runtime.native.system.security.cryptography.openssl\\4.3.0\\runtime.debian.8-x64.runtime.native.system.security.cryptography.openssl.4.3.0.nupkg.sha512",
