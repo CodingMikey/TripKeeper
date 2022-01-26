@@ -9402,19 +9402,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\mgala\\.nuget\\packages\\": {}
+    "C:\\Users\\USER\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\mgala\\OneDrive\\Desktop\\Coding Stuff\\TripKeeper\\TripKeeper\\TripKeeper.csproj",
+      "projectUniqueName": "C:\\Users\\USER\\Desktop\\Coding\\TripKeeper\\TripKeeper\\TripKeeper.csproj",
       "projectName": "TripKeeper",
-      "projectPath": "C:\\Users\\mgala\\OneDrive\\Desktop\\Coding Stuff\\TripKeeper\\TripKeeper\\TripKeeper.csproj",
-      "packagesPath": "C:\\Users\\mgala\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\mgala\\OneDrive\\Desktop\\Coding Stuff\\TripKeeper\\TripKeeper\\obj\\",
+      "projectPath": "C:\\Users\\USER\\Desktop\\Coding\\TripKeeper\\TripKeeper\\TripKeeper.csproj",
+      "packagesPath": "C:\\Users\\USER\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\USER\\Desktop\\Coding\\TripKeeper\\TripKeeper\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\mgala\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\USER\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -9495,7 +9495,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.401\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.404\\RuntimeIdentifierGraph.json"
       }
     }
   }
