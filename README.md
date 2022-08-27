@@ -9,9 +9,9 @@
 
 ## Features
 
-⚡️ Modern UI Design\
+⚡️ Modern UI/UX Design\
 ⚡️ ASP.NET Core 3.1 W/ MVC\
-⚡️ Automatically calculates how much a trip pays\
+⚡️ Automates redundant invoice total calculations\
 ⚡️ Fully Responsive + DateTime Picker\
 ⚡️ Table with full pagination, search and more\
 ⚡️ Authorization W/ Custom ApplicationUser properties
